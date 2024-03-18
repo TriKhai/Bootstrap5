@@ -38,14 +38,14 @@
     ```
 
   4. Inline text elements
-    - `<mark>` or `.mark` highlight.
-    - `<del>` deleted text.
-    - `<s>` or `.text-decoration-line-through` no longer accurate.
-    - `<ins>` an addition to the document.
-    - `<u>` or `.text-decoration-underline` underlined.
-    - `<small>` or `.small` is used to create a smaller, secondary text in any heading.
-    - `<strong>` bold text.
-    - `<em>` italicized text.
+    - `<mark>` or `.mark` highlight.\
+    - `<del>` deleted text.\
+    - `<s>` or `.text-decoration-line-through` no longer accurate.\
+    - `<ins>` an addition to the document.\
+    - `<u>` or `.text-decoration-underline` underlined.\
+    - `<small>` or `.small` is used to create a smaller, secondary text in any heading.\
+    - `<strong>` bold text.\
+    - `<em>` italicized text.\
     
       ```html
         <p>You can use the mark tag to <mark>highlight</mark> text.</p>
@@ -76,19 +76,19 @@
       ```
 
   5. Alignment
-    - `.text-start` Indicates left-aligned text
-    - `.text-center` Indicates center-aligned text
-    - `.text-end` Indicates right-aligned text
-    - `.text-break` Prevents long text from breaking layout
-    - `.text-decoration-none` Removes the underline from a link
-    - `.text-nowrap` Indicates no wrap text
-    - `.text-lowercase`	Indicates lowercased text
-    - `.text-uppercase` Indicates uppercased text
-    - `.text-capitalize` Indicates capitalized text
-    - `.initialism` Displays the text inside an `<abbr>` element in a slightly smaller font size
-    - `.list-unstyled` Removes the default list-style and left margin on list items
-    - `.list-inline` Places all list items on a single line
-    - `.text-truncate` class to truncate the text with an ellipsis. (HAY)
+    - `.text-start` Indicates left-aligned text\
+    - `.text-center` Indicates center-aligned text\
+    - `.text-end` Indicates right-aligned text\
+    - `.text-break` Prevents long text from breaking layout\
+    - `.text-decoration-none` Removes the underline from a link\
+    - `.text-nowrap` Indicates no wrap text\
+    - `.text-lowercase`	Indicates lowercased text\
+    - `.text-uppercase` Indicates uppercased text\
+    - `.text-capitalize` Indicates capitalized text\
+    - `.initialism` Displays the text inside an `<abbr>` element in a slightly smaller font size\
+    - `.list-unstyled` Removes the default list-style and left margin on list items\
+    - `.list-inline` Places all list items on a single line\
+    - `.text-truncate` class to truncate the text with an ellipsis. (HAY)\
   
   6. List
     - Inline
