@@ -38,8 +38,8 @@
     ```
 
   4. Inline text elements
-    * `<mark>` or `.mark` highlight.
-    * `<del>` deleted text.
+    - `<mark>` or `.mark` highlight.
+    - `<del>` deleted text.
     - `<s>` or `.text-decoration-line-through` no longer accurate.
     - `<ins>` an addition to the document.
     - `<u>` or `.text-decoration-underline` underlined.
