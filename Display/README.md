@@ -1,6 +1,6 @@
 # Display (d)
 
-1. 1.d-{value}
+1. `.d-{value}`
 
 Where value is one of:
 - `none`: The element is not displayed.
