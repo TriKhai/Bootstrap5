@@ -59,12 +59,14 @@
       ```
 
   4. Text utilities
-    - Abbreviations: BS5 will style the HTML `<abbr>` element with a dotted border bottom and a cursor with question mark on hover.
-      ```html
+- Abbreviations: BS5 will style the HTML `<abbr>` element with a dotted border bottom and a cursor with question mark on hover.
+```html
         <p><abbr title="attribute">attr</abbr></p>
-      ```
-    - Blockquotes: The HTML spec requires that blockquote attribution be placed outside the `<blockquote>`. When providing attribution, wrap your `<blockquote>` in a `<figure>` and use a `<figcaption>` or a block level element (e.g., `<p>`) with the .blockquote-footer class. Be sure to wrap the name of the source work in `<cite`> as well.
-      ```html
+```
+      
+- Blockquotes: The HTML spec requires that blockquote attribution be placed outside the `<blockquote>`. When providing attribution, wrap your `<blockquote>` in a `<figure>` and use a `<figcaption>` or a block level element (e.g., `<p>`) with the .blockquote-footer class. Be sure to wrap the name of the source work in `<cite`> as well.
+    
+  ```html
         <figure>
           <blockquote class="blockquote">
             <p>A well-known quote, contained in a blockquote element.</p>
@@ -73,7 +75,7 @@
             Someone famous in <cite title="Source Title">Source Title</cite>
           </figcaption>
         </figure>
-      ```
+```
 
   5. Alignment
     - `.text-start` Indicates left-aligned text\
