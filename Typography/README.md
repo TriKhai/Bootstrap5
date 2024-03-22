@@ -58,7 +58,7 @@ Display headings are used to stand out more than normal headings (larger font-si
 <p><em>This line rendered as italicized text.</em></p>
 ```
 
-4. Text utilities
+5. Text utilities
 - Abbreviations: BS5 will style the HTML `<abbr>` element with a dotted border bottom and a cursor with question mark on hover.
 ```html
 <p><abbr title="attribute">attr</abbr></p>
@@ -66,7 +66,7 @@ Display headings are used to stand out more than normal headings (larger font-si
       
 - Blockquotes: The HTML spec requires that blockquote attribution be placed outside the `<blockquote>`. When providing attribution, wrap your `<blockquote>` in a `<figure>` and use a `<figcaption>` or a block level element (e.g., `<p>`) with the .blockquote-footer class. Be sure to wrap the name of the source work in `<cite`> as well.
     
-  ```html
+```html
         <figure>
           <blockquote class="blockquote">
             <p>A well-known quote, contained in a blockquote element.</p>
@@ -77,7 +77,7 @@ Display headings are used to stand out more than normal headings (larger font-si
         </figure>
 ```
 
-  5. Alignment
+6. Alignment
 - `.text-start` Indicates left-aligned text\
 - `.text-center` Indicates center-aligned text\
 - `.text-end` Indicates right-aligned text\
@@ -92,7 +92,7 @@ Display headings are used to stand out more than normal headings (larger font-si
 - `.list-inline` Places all list items on a single line\
 - `.text-truncate` class to truncate the text with an ellipsis. (HAY)\
   
-6. List
+7. List
 - Inline
  ```html
 <ul class="list-inline">
