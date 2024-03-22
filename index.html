@@ -1,0 +1,575 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Library -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" /> -->
+    
+    <link rel="stylesheet" href="./library/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./library/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./library/css/owl.theme.default.min.css">
+    <script src="./library/js/jquery.min.js"></script>
+    <script src="./library/js/bootstrap.bundle.js"></script>
+    <script src="./library/js/owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        })
+    </script>
+    <!-- font anwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- my css -->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <!-- css customize -->
+    <style>
+        /* ... */
+    </style>
+
+    <!-- HEADER -->
+    <header>
+        <div class="headerTop container-fluid py-2 justify-content-between d-flex align-items-center">
+            <div class="headerLeft">
+                <a href="tel: 0848041482" class="mx-4 text-white text-decoration-none "><i class="fa fa-phone"></i>
+                    084.804.1482</a>
+                <a href="mailto: trikhaikhmt@gmail.com" class="text-white text-decoration-none "><i
+                        class="fa fa-envelope me-1"></i>trikhaikhmt@gmail.com</a>
+            </div>
+            <div class="headerRight">
+                <a target="_blank" href="https://www.facebook.com/profile.php?id=100053355381563&locale=vi_VN" class="d-inline-block rounded text-center m-1"><i class="fab fa-facebook-f"></i></a>
+                <a target="_blank" href="https://twitter.com/Khaisieucappro" class="d-inline-block rounded text-center m-1"><i class="fa-brands fa-x-twitter"></i></a>
+                <a target="_blank" href="https://www.instagram.com/khaisieucapvippro/" class="d-inline-block rounded text-center m-1"><i class="fab fa-instagram"></i></a>
+                <a target="_blank" href="https://github.com/TriKhai" class="d-inline-block rounded text-center m-1"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navInstruction">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <p class="fw-bold mb-0"><i class="fa-solid fa-book"></i>UNIVERSUY</p>
+                <p class="fw-bold text-center mb-0">education</p>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#resNav"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class=""><i class="fa-solid fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="resNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">GALLERY</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            PAGES
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Codes</a></li>
+                            <li><a class="dropdown-item" href="#">Icons</a></li>
+                            <li><a class="dropdown-item" href="#">Author</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CAROUSEL -->
+    <div id="myBanner" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myBanner" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myBanner" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myBanner" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./assets/banner1.jpg" class="d-block w-100" alt="...">
+                <div class="top-50 start-50 translate-middle carousel-caption d-none d-md-block">
+                    <h2>Kiến thức - Knowledge</h2>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/banner3.jpg" class="d-block w-100" alt="...">
+                <div class="top-50 start-50 translate-middle carousel-caption d-none d-md-block">
+                    <h2>Kinh nghiệm - Experience</h2>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/banner4.jpg" class="d-block w-100" alt="...">
+                <div class="top-50 start-50 translate-middle carousel-caption d-none d-md-block">
+                    <h2>Trải nghiệm - Experience</h2>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myBanner" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myBanner" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- WELCOME -->
+    <section class="container my-5">
+        <div class="heading text-center">
+            <h2 class="fs-1 fw-bold">WELCOME TO PAGE</h2>
+            <p class="text-uppercase fs-5">Lorem ipsum dolor sit, amet ass.</p>
+        </div>
+        <div class="welcomeContent">
+            <p class="w-75 mx-auto text-center lh-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+                autem, quibusdam eum placeat aspernatur,
+                facere quaerat necessitatibus earum corporis impedit voluptates sed ipsa repellat, obcaecati odio
+                reiciendis. Placeat soluta mollitia, cum velit qui laudantium ipsum perferendis excepturi sequi animi?
+                Debitis?</p>
+            <div class="welcomeCourse container">
+                <div class="row p-5">
+                    <div class="col-4 border border-dark rounded-start p-5">
+                        <div class="welcomeItems">
+                            <i class="fa-solid fa-tv fs-3"></i>
+                            <h3 class="fw-bold my-2">Design Course</h3>
+                            <h4 class="fs-6 text-uppercase fw-bold">Fashion Design</h4>
+                            <p class="lh-base">Lorem ipsum dolor sit amet, sss adipisicing elit.</p>
+                            <h4 class="fs-6 text-uppercase fw-bold">Interior Design</h4>
+                            <p class="lh-base">Lorem ipsum dolor sit amet, sss adipisicing elit.</p>
+                            <h4 class="fs-6 text-uppercase fw-bold">Graphic Design</h4>
+                            <p class="lh-base">Lorem ipsum dolor sit amet, sss adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="col-4 border border-dark p-5">
+                        <div class="welcomeItems">
+                            <i class="fa-solid fa-arrows-up-down-left-right fs-3"></i>
+                            <h3 class="fw-bold my-2">Marketing Course</h3>
+                            <h4 class="fs-6 text-uppercase fw-bold">Facebook Marketing</h4>
+                            <p class="lh-base">Lorem ipsum dolor sit amet, sss adipisicing elit.</p>
+                            <h4 class="fs-6 text-uppercase fw-bold">Youtube Marketing</h4>
+                            <p class="lh-base">Lorem ipsum dolor sit amet, sss adipisicing elit.</p>
+                            <h4 class="fs-6 text-uppercase fw-bold">Twitter Marketing</h4>
+                            <p class="lh-base">Lorem ipsum dolor sit amet, sss adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="col-4 border border-dark rounded-end p-5">
+                        <div class="welcomeItems">
+                            <i class="fa-solid fa-chart-line fs-3"></i>
+                            <h3 class="fw-bold my-2">Financial Course</h3>
+                            <h4 class="fs-6 text-uppercase fw-bold">Complexities Of Banking</h4>
+                            <p class="lh-base">Lorem ipsum dolor sit amet, sss adipisicing elit.</p>
+                            <h4 class="fs-6 text-uppercase fw-bold">Compliance Regulations</h4>
+                            <p class="lh-base">Lorem ipsum dolor sit amet, sss adipisicing elit.</p>
+                            <h4 class="fs-6 text-uppercase fw-bold">Finance Products</h4>
+                            <p class="lh-base">Lorem ipsum dolor sit amet, sss adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- OUR STAR -->
+    <section class="ourStar py-5">
+        <div class="container my-5">
+            <div class="heading text-center">
+                <h2 class="fs-1 fw-bold">OUR STAR</h2>
+                <p class="text-uppercase fs-5">Lorem ipsum dolor sit, amet consectetur.</p>
+            </div>
+            <div class="ourStarContent container my-5">
+                <div class="row text-center wx-4">
+                    <div class="col-3">
+                        <div class="ourStarItem">
+                            <i class="fa-solid fa-graduation-cap fs-1"></i>
+                            <h3 class="my-2">Gradutes</h3>
+                            <p>45</p>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="ourStarItem">
+                            <i class="fa fa-user fs-1"></i>
+                            <h3 class="my-2">Certified Staff</h3>
+                            <p>165</p>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="ourStarItem">
+                            <i class="fa fa-users fs-1"></i>
+                            <h3 class="my-2">Student</h3>
+                            <p>999</p>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="ourStarItem">
+                            <i class="fa-solid fa-trophy fs-1"></i>
+                            <h3 class="my-2">Awards</h3>
+                            <p>245</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- OFFER -->
+    <section class="container my-5">
+        <div class="heading text-center">
+            <h2 class="fs-1 fw-bold">WHAT WE OFFER</h2>
+            <p class="text-uppercase fs-5">Lorem ipsum dolor sit, amet ass.</p>
+        </div>
+        <div class="offerContent container my-5">
+            <div class="row text-center">
+                <div class="col-4 mb-5">
+                    <div class="offerItem border border-dark rounded p-4">
+                        <i class="fa-solid fa-file-code fs-1"></i>
+                        <h3 class="fw-bold fs-4 mt-3">WEB DEVELOPER</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio provident libero at
+                            debitis deleniti!</p>
+                    </div>
+                </div>
+                <div class="col-4 mb-5">
+                    <div class="offerItem border border-dark rounded p-4">
+                        <i class="fa-solid fa-file fs-1"></i>
+                        <h3 class="fw-bold fs-4 mt-3">MOBILE DEVELOPER</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio provident libero at
+                            debitis deleniti!</p>
+                    </div>
+                </div>
+                <div class="col-4 mb-5">
+                    <div class="offerItem border border-dark rounded p-4">
+                        <i class="fa-solid fa-file fs-1"></i>
+                        <h3 class="fw-bold fs-4 mt-3">MOBILE DEVELOPER</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio provident libero at
+                            debitis deleniti!</p>
+                    </div>
+                </div>
+                <div class="col-4 mb-5">
+                    <div class="offerItem border border-dark rounded p-4">
+                        <i class="fa-solid fa-file-code fs-1"></i>
+                        <h3 class="fw-bold fs-4 mt-3">WEB DEVELOPER</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio provident libero at
+                            debitis deleniti!</p>
+                    </div>
+                </div>
+                <div class="col-4 mb-5">
+                    <div class="offerItem border border-dark rounded p-4">
+                        <i class="fa-solid fa-file fs-1"></i>
+                        <h3 class="fw-bold fs-4 mt-3">MOBILE DEVELOPER</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio provident libero at
+                            debitis deleniti!</p>
+                    </div>
+                </div>
+                <div class="col-4 mb-5">
+                    <div class="offerItem border border-dark rounded p-4">
+                        <i class="fa-solid fa-file fs-1"></i>
+                        <h3 class="fw-bold fs-4 mt-3">MOBILE DEVELOPER</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio provident libero at
+                            debitis deleniti!</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FEEDBACK -->
+    <section class="feedBack py-5">
+        <div class="container my-5">
+            <div class="heading text-center">
+                <h2 class="fs-1 fw-bold">TESTIMONIALS</h2>
+                <p class="text-uppercase fs-5">Lorem ipsum dolor sit, amet ass.</p>
+            </div>
+            <div class="feedbackContent container p-5 border border-secondary">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="feedBackTop">
+                            <p>Lorem ipsum dolor, psum dolor sit amet, consectetur adipisicing elit. Velit libero
+                                deserunt placeat assumenda
+                                similique nostrum tempora sit amet consectetur adipisicing elit. Autem atque
+                                repellendus,
+                                obcaecati
+                                fuga laudantium consequatur nemo unde nam.</p>
+                        </div>
+                        <div class="feedBackBottom d-flex justify-content-center my-4 mx-auto">
+                            <img src="./assets/avatar.jpg" alt="">
+                            <div class="feedBackInfo p-3">
+                                <p class="fs-5 fw-bold mb-1">Thúy Ngọc</p>
+                                <p class="myColorText fs-6">My Universe</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="feedBackTop">
+                            <p>Lorem ipsum dolor, psum dolor sit amet, consectetur adipisicing elit. Velit libero
+                                deserunt placeat assumenda
+                                similique nostrum tempora sit amet consectetur adipisicing elit. Autem atque
+                                repellendus,
+                                obcaecati
+                                fuga laudantium consequatur nemo unde nam.</p>
+                        </div>
+                        <div class="feedBackBottom d-flex justify-content-center my-4 mx-auto">
+                            <img src="./assets/avatar2.jpg" alt="">
+                            <div class="feedBackInfo p-3">
+                                <p class="fs-5 fw-bold mb-1">Bảo Trâm</p>
+                                <p class="myColorText fs-6">My Universe</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="feedBackTop">
+                            <p>Lorem ipsum dolor, psum dolor sit amet, consectetur adipisicing elit. Velit libero
+                                deserunt placeat assumenda
+                                similique nostrum tempora sit amet consectetur adipisicing elit. Autem atque
+                                repellendus,
+                                obcaecati
+                                fuga laudantium consequatur nemo unde nam.</p>
+                        </div>
+                        <div class="feedBackBottom d-flex justify-content-center my-4 mx-auto">
+                            <img src="./assets/avatar3.jpg" alt="">
+                            <div class="feedBackInfo p-3">
+                                <p class="fs-5 fw-bold mb-1">Thúy Quỳnh</p>
+                                <p class="myColorText fs-6">My Universe</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="feedBackTop">
+                            <p>Lorem ipsum dolor, psum dolor sit amet, consectetur adipisicing elit. Velit libero
+                                deserunt placeat assumenda
+                                similique nostrum tempora sit amet consectetur adipisicing elit. Autem atque
+                                repellendus,
+                                obcaecati
+                                fuga laudantium consequatur nemo unde nam.</p>
+                        </div>
+                        <div class="feedBackBottom d-flex justify-content-center my-4 mx-auto">
+                            <img src="./assets/avatar4.jpg" alt="">
+                            <div class="feedBackInfo p-3">
+                                <p class="fs-5 fw-bold mb-1">Yến Nhi</p>
+                                <p class="myColorText fs-6">My Universe</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="feedBackTop">
+                            <p>Lorem ipsum dolor, psum dolor sit amet, consectetur adipisicing elit. Velit libero
+                                deserunt placeat assumenda
+                                similique nostrum tempora sit amet consectetur adipisicing elit. Autem atque
+                                repellendus,
+                                obcaecati
+                                fuga laudantium consequatur nemo unde nam.</p>
+                        </div>
+                        <div class="feedBackBottom d-flex justify-content-center my-4 mx-auto">
+                            <img src="./assets/avatar5.jpg" alt="">
+                            <div class="feedBackInfo p-3">
+                                <p class="fs-5 fw-bold mb-1">Ngọc Bình</p>
+                                <p class="myColorText fs-6">My Universe</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEWS -->
+    <section class="container my-5">
+        <div class="heading text-center">
+            <h2 class="fs-1 fw-bold">News</h2>
+            <p class="text-uppercase fs-5">Lorem ipsum dolor sit, amet ass.</p>
+        </div>
+        <div class="newsContent container">
+            <div class="row px-5">
+                <div class="newsAvatar col-5 p-5">
+                    <img class="img-fluid" src="./assets/avatar1.jpg" alt="">
+                </div>
+                <div class="newsInfo col-7 py-5">
+                    <h3 class="fs-2 fw-bold"><a class="text-decoration-none text-uppercase" href="#"
+                            data-bs-toggle="modal" data-bs-target="#newsModal">You are my universe</a></h3>
+                    <h4 class="fs-4">
+                        <i class="fa fa-splotch"></i>
+                        <i class="fa fa-splotch"></i>
+                        <i class="fa fa-splotch"></i>
+                        <i class="fa fa-splotch"></i>
+                        <i class="fa fa-splotch"></i>
+                    </h4>
+                    <p class="fs">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias repudiandae
+                        numquam nihil totam velit architecto ratione ipsa. Quis consequuntur in labore eos, quaerat a
+                        ullam maxime fuga suscipit voluptatum atque fugit similique ex eveniet architecto placeat veniam
+                        soluta sed iste, aspernatur possimus eligendi vero! Porro maiores dicta quia blanditiis ut?</p>
+                </div>
+            </div>
+            <div class="row px-5">
+                <div class="newsInfo col-7 py-5">
+                    <h3 class="fs-2 fw-bold"><a class="text-decoration-none text-uppercase" href="#"
+                            data-bs-toggle="modal" data-bs-target="#newsModal">I'm lovesick</a>
+                    </h3>
+                    <h4 class="fs-4">
+                        <i class="fa fa-splotch"></i>
+                        <i class="fa fa-splotch"></i>
+                        <i class="fa fa-splotch"></i>
+                        <i class="fa fa-splotch"></i>
+                        <i class="fa fa-splotch"></i>
+                    </h4>
+                    <p class="fs">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias repudiandae
+                        numquam nihil totam velit architecto ratione ipsa. Quis consequuntur in labore eos, quaerat a
+                        ullam maxime fuga suscipit voluptatum atque fugit similique ex eveniet architecto placeat veniam
+                        soluta sed iste, aspernatur possimus eligendi vero! Porro maiores dicta quia blanditiis ut?</p>
+                </div>
+                <div class="newsAvatar col-5 p-5">
+                    <img class="img-fluid" src="./assets/avatar5.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="contact">
+        <div class="footerContent container p-5">
+            <div class="footerTop row p-5">
+                <div class="col-4 px-3">
+                    <h3 class="text-center">About me</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur saepe fuga labore laudantium
+                        veniam, quis quod esse praesentium incidunt quos illo soluta vitae atque provident accusamus
+                        excepturi distinctio minus voluptates.</p>
+                </div>
+                <div class="col-4 px-4">
+                    <h3 class="text-center">Lest News</h3>
+                    <div class="footerLink mb-1">
+                        <i class="fa fa-play me-1"></i>
+                        <a href="#">Lorem ipsum dolor sit.</a>
+                    </div>
+                    <div class="footerLink mb-1">
+                        <i class="fa fa-play me-1"></i>
+                        <a href="#">Lorem ipsum dolor sit amet.</a>
+                    </div>
+                    <div class="footerLink mb-1">
+                        <i class="fa fa-play me-1"></i>
+                        <a href="#">Lorem ipsum dolor sit.</a>
+                    </div>
+                    <div class="footerLink mb-1">
+                        <i class="fa fa-play me-1"></i>
+                        <a href="#">Lorem ipsum dolor sit.</a>
+                    </div>
+                    <div class="footerLink mb-1">
+                        <i class="fa fa-play me-1"></i>
+                        <a href="#">Lorem ipsum dolor sit amet.</a>
+                    </div>
+                </div>
+                <div class="col-4 px-3">
+                    <h3 class="text-center">Contacts</h3>
+                    <div class="footerContact">
+                        <i class="fa fa-map-marker-alt me-1"></i>
+                        <a href="#">Tân Thạnh, An Minh, Kiên Giang</a>
+                    </div>
+                    <div class="footerContact">
+                        <i class="fa fa-envelope me-1"></i>
+                        <a href="mailto:trikhaikhmt@gmail.com">trikhaikhmt@gmail.com</a>
+                    </div>
+                    <div class="footerContact">
+                        <i class="fa fa-phone me-1"></i>
+                        <a href="tel:0848041482">0848.041.482</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footerForms row mb-5">
+                <form action="">
+                    <label for="" class="col myColorText fs-4 fw-bold">Sign up for our Newsletter</label>
+                    <input type="email" class="col p-2 mx-3 w-50 rounded" placeholder="Enter email address...">
+                    <button type="submit" class="col btn myColorText">Confim identity</button>
+                </form>
+            </div>
+            <div class="footerBottom row text-center">
+                <div>&copy; 2024 Instruction. All right reserved | Author: <a class="text-decoration-none fw-bold" href="https://github.com/TriKhai" target="_blank">TríKhải</a></div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- MODAL NEWS -->
+    <div class="modal fade" id="newsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">YOU ARE MY UNIVERSE</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="imgModal px-5 py-2">
+                        <img class="img-fluid" src="./assets/avatar3.jpg" alt="">
+                    </div>
+                    <p class="p-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae quas vel
+                        perspiciatis. Itaque totam voluptates id quia fugit magni incidunt tempora aaa eveniet, fugiat
+                        deleniti accusantium nemo.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script> -->
+    <!-- OWL CAROUSEL LIBRARY feekback -->
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                1000: {
+                    items: 2
+                },
+                1300: {
+                    items: 3
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
