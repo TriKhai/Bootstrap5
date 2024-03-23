@@ -388,8 +388,16 @@ section:hover .heading p::after {
     }
 }
 
-@media screen and (max-width: 768px) {
-
+@media screen and (max-width: 767.98px) {
+    .footerForms label {
+        text-align: center;
+    }
+    .footerForms button,
+    .footerForms input {
+        display: block;
+        margin: 20px 0 !important;
+        width: 100% !important;
+    }
 }
 
 @media screen and (max-width: 576.98px) {
@@ -412,7 +420,7 @@ section:hover .heading p::after {
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 767.98px) and (max-width: 991.98px) {
     .navInstruction .nav-link {
         padding: 0;
     }
@@ -420,5 +428,3 @@ section:hover .heading p::after {
         margin: 0 2px 0 2px;
     }
 }
-
-
