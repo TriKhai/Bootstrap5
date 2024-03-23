@@ -209,7 +209,7 @@ section:hover .heading p::after {
 }
 
 .feedBack .feedBackBottom img {
-    width: 28%;
+    width: 28vw;
     border-radius: 10px;
     display: inline-block;
 }
