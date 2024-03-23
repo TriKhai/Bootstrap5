@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        /* RESPONSIVE WITH CSS */
+
+        /* tool test
+        -browerstack.com
+        
+        */
+
+        /* default all screen */
+        /* DF -> max-width */
+        /* max-width: lớn xuống nhỏ */
+        .desktop {
+            background-color: red;
+        }
+        @media screen and (max-width: 1200px) {
+
+            /* max-with: 1200px: Vùng ảnh hưởng nhỏ hơn 1200px */
+            .desktop {
+                background-color: blue;
+            }
+        }
+        @media screen and (max-width: 900px) {
+
+            /* max-with: 900px: Vùng ảnh hưởng nhỏ hơn hoặc bằng 900px */
+            .desktop {
+                background-color: green;
+            }
+        }
+
+        /* Mobile First nên dùng này */
+        /* ĐI TỪ NHO ĐẾN LỚN */
+        /* DÙNG MIN WIDTH */
+        .mobile {
+            background-color: aqua;
+        }
+
+        @media screen and (min-width: 500px) {
+            /* min-with: 500px: Vùng ảnh hưởng lớn hơn hoặc bằng 500px */
+            .mobile {
+                background-color: yellow;
+            }
+        }
+
+        @media screen and (min-width: 1000px) {
+            /* min-with: 500px: Vùng ảnh hưởng lớn hơn hoặc bằng 500px */
+            .mobile {
+                background-color: goldenrod;
+            }
+        }
+
+
+        /* RESPONSIVE WITH BOOTSTRAP */
+    </style>
+
+    <div class="desktop">Desktop First</div>
+    <div class="mobile">Mobile First</div>
+
+    <script>
+
+    </script>
+
+</body>
+
+</html>
